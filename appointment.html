@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment | Bateaux Massage | Mini Project 1 | WD37</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap 5.3-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Box Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--personalize-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="mb-5">
+        <a href="#" class="logo text-decoration-none"><i class='bx bxs-hand'></i>Bateaux Massage</a>
+        <ul class="navbar">
+            <li><a href="index.html" class="text-decoration-none">Home</a></li>
+            <li><a href="appointment.html" class="text-decoration-none">Book an appointment</a></li>
+            <li><a href="contact.html" class="text-decoration-none">Contact Us</a></li>
+            <li><a href="index.html" class="text-decoration-none">Reviews</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Opportunities
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="supplier.html">Become a Supplier/Owner</a></li>
+                  <li><a class="dropdown-item" href="therapist.html">Become a freelace Therapist</a></li>
+                </ul>
+              </li>   
+        </ul>
+        <!-- Icons -->
+        <div class="header-icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-search' id="search-icon"></i>
+            <i class='bx bx-cart-alt' id="cart-icon"></i>
+            <i class='bx bx-user' id="user-icon"></i>
+        </div>
+        <!-- Search Box-->
+        <div class="search-box">
+            <input type="search" name="" id="" placeholder="search here..">
+        </div>
+        <!-- Cart Box-->
+        <div class="cart">
+            <!--Box 1-->
+            <div class="box">
+                <img src="img/Massage Therapist 1.jpg" alt="">
+                <div class="text">
+                    <h3>Mary Jane</h3>
+                    <span>$50.05</span>
+                    <span>x1</span>
+                </div>
+                <i class='bx bxs-trash-alt'></i>
+            </div>
+            <!--Box 2-->
+            <div class="box">
+                <img src="img/Hair Stylist 1.jpg" alt="">
+                <div class="text">
+                    <h3>Maritez Cruz</h3>
+                    <span>$50.05</span>
+                    <span>x1</span>
+                </div>
+                <i class='bx bxs-trash-alt'></i>
+            </div>
+            <h2>Total:  $100.10</h2>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+        <!-- User -->
+        <div class="user">
+            <h2>Login Now</h2>
+            <input type="email" placeholder="Your Email...">
+            <input type="password" name="" id="" placeholder="Password">
+            <input type="submit" value="Login" class="login-btn">
+            <p>Forget Password <a href="#">Reset Now</a></p>
+            <p>Don't have account? <a href="#">Create One</a></p>
+        </div>
+    </header>
+
+
+
+    <div class="container mt-5 pt-5 mb-5">
+        <div class="container">
+          <div class="row no-margin">
+              <div class="col-sm-7">
+                  <div class="content">
+                      <!-- <h1>Book You Slot Now and Save your time</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis at lacus at rhoncus. Integer pharetra lacus vitae sapien blandit eleifend. </p>
+                      <h2>For Help Call : +189-123-453</h2> -->
+                      <img src="img/relax.png" class="img-fluid">
+                      <img src="img/relax2.png" class="img-fluid">
+                  </div>
+              </div>
+              <div class="col-sm-5">
+                  <div class="form-data">
+                      <div class="form-head">
+                          <h2>Book an appointment</h2>
+                      </div>
+                      <div class="form-body">
+                          <div class="row form-row mb-3">
+                            <input type="text" placeholder="Your Full Name.." class="form-control">
+                          </div>
+                          <div class="row form-row mb-3">
+                            <input type="text" placeholder="Your Mobile Number.." class="form-control">
+                          </div>
+                           <div class="row form-row mb-3">
+                            <input type="text" placeholder="Your Email.." class="form-control">
+                          </div>
+                         <div class="row form-row mb-3">
+                            <input id="dat" type="date" placeholder="Appointment Date" class="form-control">
+                          </div>
+                          <div class="form-row mb-3">
+                            <label for="appt">Time</label>
+                            <input type="time" id="appt" name="appt">
+                        </div>
+                        <div class="form-row mb-3">
+                            <label for="quantity">For how many person? </label>
+                            <input type="number" id="quantity" name="quantity" min="1" max="100">
+                        </div>
+                        <div class="form-row mb-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Where do you need the service?</option>
+                                <option value="1">Home</option>
+                                <option value="2">Salon</option>
+                                <option value="3">Resort/Hotel</option>
+                              </select>
+                        </div>
+                          
+                          <h6>Address Details</h6>
+
+                           <div class="row form-row">
+                              <div class="col-sm-6">
+                                 <input type="text" placeholder="Enter Area" class="form-control mb-3">
+                              </div>
+                              <div class="col-sm-6">
+                                 <input type="text" placeholder="Enter City" class="form-control mb-3">
+                              </div>
+                          </div>
+                           <div class="row form-row">
+                              <div class="col-sm-6">
+                                 <input type="text" placeholder="Enter State" class="form-control mb-3">
+                              </div>
+                              <div class="col-sm-6">
+                                 <input type="text" placeholder="Postal Code" class="form-control mb-3">
+                              </div>
+                          </div>
+
+                           <div class="row form-row">
+                             <button class="btn btn-success btn-appointment w-75">
+                               Book Appointment
+                             </button>
+                             
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer-->
+    <section class="footer mt-5">
+        <div class="footer-box">
+            <h2>Bateaux Massage</h2>
+            <p>Bateaux Massage is a website where you can book home services or appointments at your favorite spas around the world. You can enjoy a spa experience at home with our professional Massage therapist/hairstylist, etc. for home services. We also accept a variety of payment methods.</p>
+
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-tiktok' ></i></a>
+            </div>
+        </div>
+            <div class="footer-box">
+                <h3>Support</h3>
+                <li><a href="#" class="text-decoration-none">Product</a></li>
+                <li><a href="contact.html" class="text-decoration-none">Help & Support</a></li>
+                <li><a href="#" class="text-decoration-none">Terms of Use</a></li>
+                <li><a href="#" class="text-decoration-none">FAQ</a></li>
+            </div>
+            <div class="footer-box">
+                <h3>Our Branches</h3>
+                <li><a href="#" class="text-decoration-none">Philippines</a></li>
+                <li><a href="#" class="text-decoration-none">United States</a></li>
+                <li><a href="#" class="text-decoration-none">Canada</a></li>
+                <li><a href="#" class="text-decoration-none">India</a></li>
+                <li><a href="#" class="text-decoration-none">China</a></li>
+            </div>
+            <div class="footer-box">
+                <h3>Payment Method</h3>
+                <div class="payment">
+                    <img src="img/visa.jpg" alt="Visa">
+                    <img src="img/mastercard.png" alt="Master">
+                    <img src="img/paypal.png" alt="Paypal">
+                    <img src="img/amex.jpg" alt="Amex">
+                    <img src="img/gcash.png" alt="Gcash">
+                    <img src="img/paymaya.png" alt="Paymaya">
+                    <img src="img/bitcoin.png" alt="Bitcoin">
+                </div>
+            </div>
+    </section>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>© KodeGo | WD37 | Marc James G. Montero.</p>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!--Link to Js-->
+    <script src="js/main.js"></script>
+    <script src="//code.tidio.co/uam4rmgpwwapwcbbpy4oyatnbpp2usul.js" async></script>
+</body>
+    <!-- Bootstrap JS 5.3-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</html>
