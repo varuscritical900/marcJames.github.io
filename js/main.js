@@ -43,7 +43,7 @@ window.addEventListener('scroll', () =>{
 
 
 // Swiper
-var swiper = new Swiper(".new-arrival", {
+var swiper = new Swiper(".spa", {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
