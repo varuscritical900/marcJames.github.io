@@ -211,6 +211,10 @@ header{
     gap: 1.5rem;
     background: var(--second-color);
 }
+/* .home-img{
+
+
+} */
     .home-text span{
         font-weight: 600;
         text-transform: uppercase;
@@ -237,21 +241,21 @@ header{
         text-transform: uppercase;
         clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
     }
-.new-arrival{
+.spa{
     margin-top: 2rem;
 }
-    .new-arrival .box{
+    .spa .box{
         position: relative;
         overflow: hidden;
         background: var(--second-color);
     }
-        .new-arrival .box img{
+        .spa .box img{
             background: var(--second-color);
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
-        .new-arrival .box .content{
+        .spa .box .content{
             position: absolute;
             top: -100%;
             right: 0;
@@ -263,33 +267,33 @@ header{
             background: hsl(0, 0%, 91%, 0.5);
             overflow: hidden;
         }
-            .new-arrival .box:hover .content{
+            .spa .box:hover .content{
                 top: 0;
                 transition: 0.2s;
             }
-.product-container{
+.therapist{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, auto));
     gap: 1rem;
     margin-top: 2rem;
 }
-    .product-container .box{
+    .therapist .box{
         position: relative;
         padding: 10px;
         box-shadow: var(--box-shadow);
     }
-        .product-container .box .content h2{
+        .therapist .box .content h2{
             font-size: 1.2rem;
             font-weight: 600;
             text-align: center;
         }
-        .product-container .box .content h4{
+        .therapist .box .content h4{
             text-align: center;
         }
-            .product-container .box .content .stars .bx{
+            .therapist .box .content .stars .bx{
                 color: var(--main-color);
             }
-            .product-container .box .bx-cart-alt{
+            .therapist .box .bx-cart-alt{
                 position: absolute;
                 bottom: 0;
                 right: 0;
@@ -298,10 +302,10 @@ header{
                 background: var(--main-color);
                 color: var(--bg-color);
             }
-                .product-container .box .bx-cart-alt:hover{
+                .therapist .box .bx-cart-alt:hover{
                     background: var(--text-color);
                 }
-                .product-container .box:hover img{
+                .therapist .box:hover img{
                     -webkit-transform: scaleX(-1);
                     transform: scaleX(-1);
                     transition: 0.5s;
@@ -341,6 +345,12 @@ header{
             background: var(--text-color);
             color: var(--main-color);
         }
+.supplier-form{
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30%;
+}
 .footer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, auto));
