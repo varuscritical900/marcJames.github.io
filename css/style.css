@@ -211,10 +211,6 @@ header{
     gap: 1.5rem;
     background: var(--second-color);
 }
-/* .home-img{
-
-
-} */
     .home-text span{
         font-weight: 600;
         text-transform: uppercase;
